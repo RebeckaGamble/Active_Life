@@ -1,0 +1,209 @@
+{
+  "exercises": [
+    {
+      "id": 1,
+      "name": "Push-up",
+      "category": "Strength",
+      "description": "Basic upper body exercise",
+      "image": "../assets/images/pushups.png",
+      "instructions": "1. Start in a plank position with hands shoulder-width apart. \n2. Lower your body until your chest nearly touches the floor. \n3. Push back up to the starting position. \n4. Repeat for desired number of reps."
+    },
+    {
+      "id": 2,
+      "name": "Squats",
+      "category": "Legs",
+      "description": "Lower body exercise targeting thighs and glutes",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Stand with feet shoulder-width apart, toes slightly turned out. \n2. Bend knees and lower your body as if sitting back into a chair. \n3. Keep your chest up and back straight. \n4. Push through your heels to return to standing. \n5. Repeat."
+    },
+    {
+      "id": 3,
+      "name": "Burpees",
+      "category": "Full Body",
+      "description": "High-intensity exercise targeting multiple muscle groups",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Start in a standing position. \n2. Drop into a squat position with your hands on the ground. \n3. Kick your feet back into a plank position. \n4. Perform a push-up. \n5. Jump your feet back to the squat position. \n6. Jump up into the air with arms overhead. \n7. Repeat."
+    },
+    {
+      "id": 4,
+      "name": "Lunges",
+      "category": "Legs",
+      "description": "Strengthens lower body muscles including quads and glutes",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Stand tall with feet hip-width apart. \n2. Step forward with one leg and lower your body until both knees are bent at a 90-degree angle. \n3. Keep front knee over ankle, not pushed out too far. \n4. Push back to the starting position and repeat on the other leg."
+    },
+    {
+      "id": 5,
+      "name": "Plank",
+      "category": "Core",
+      "description": "Core stability exercise",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Start in a push-up position with hands directly under shoulders. \n2. Engage core muscles and hold the position, keeping body in a straight line from head to heels. \n3. Avoid sagging or arching your back. \n4. Hold for desired duration."
+    },
+    {
+      "id": 6,
+      "name": "Jumping Jacks",
+      "category": "Cardio",
+      "description": "Full body cardiovascular exercise",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Stand with feet together and arms at your sides. \n2. Jump while spreading legs and arms out to sides. \n3. Land softly with feet apart and arms overhead. \n4. Jump again to return to starting position. \n5. Repeat."
+    },
+    {
+      "id": 7,
+      "name": "Deadlifts",
+      "category": "Strength",
+      "description": "Compound exercise targeting back, glutes, and hamstrings",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Stand with feet hip-width apart, barbell or dumbbells in front of thighs. \n2. Hinge at hips and lower weights along front of legs, keeping back straight. \n3. Keep weights close to body and chest lifted. \n4. Push hips forward to stand up straight. \n5. Repeat."
+    },
+    {
+      "id": 8,
+      "name": "Bicycle Crunches",
+      "category": "Core",
+      "description": "Targets obliques and improves core strength",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Lie flat on your back with hands behind head, elbows out. \n2. Lift shoulder blades off the ground and bring right elbow to left knee while extending right leg straight. \n3. Switch sides, bringing left elbow to right knee and extending left leg straight. \n4. Continue alternating sides in a pedaling motion."
+    },
+    {
+      "id": 9,
+      "name": "Mountain Climbers",
+      "category": "Cardio",
+      "description": "High-intensity exercise for core and cardiovascular system",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Start in a push-up position with hands directly under shoulders. \n2. Bring right knee towards chest, then quickly switch legs bringing left knee towards chest. \n3. Keep hips low and core engaged. \n4. Increase speed while maintaining form."
+    },
+    {
+      "id": 10,
+      "name": "Dumbbell Bench Press",
+      "category": "Strength",
+      "description": "Upper body exercise targeting chest, shoulders, and triceps",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Lie on a bench with feet flat on the floor and dumbbells in hands at chest level. \n2. Press dumbbells upwards until arms are extended, directly above chest. \n3. Lower dumbbells back down to chest level. \n4. Repeat for desired number of reps."
+    },
+    {
+      "id": 11,
+      "name": "Russian Twists",
+      "category": "Core",
+      "description": "Targets obliques and improves rotational core strength",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Sit on the floor with knees bent and feet lifted off the ground, leaning back slightly. \n2. Hold a weight or medicine ball in hands, arms extended in front of chest. \n3. Twist torso to the right, bringing weight towards the floor beside hip. \n4. Twist torso to the left, bringing weight towards the floor beside hip. \n5. Repeat."
+    },
+    {
+      "id": 12,
+      "name": "Jump Rope",
+      "category": "Cardio",
+      "description": "Full body cardiovascular exercise using a jump rope",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Hold jump rope handles in each hand with rope behind body. \n2. Swing rope overhead and jump over it with both feet. \n3. Continue jumping rope, maintaining a steady rhythm. \n4. Increase speed or vary foot patterns for intensity."
+    },
+    {
+      "id": 13,
+      "name": "Leg Raises",
+      "category": "Core",
+      "description": "Targets lower abdominal muscles",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Lie flat on your back with legs extended and hands under glutes for support. \n2. Lift legs off the ground, keeping them straight, until they form a 90-degree angle with the torso. \n3. Lower legs back down without touching the ground. \n4. Repeat."
+    },
+    {
+      "id": 14,
+      "name": "Pull-ups",
+      "category": "Strength",
+      "description": "Upper body exercise targeting back and biceps",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Grip pull-up bar with palms facing forward and hands shoulder-width apart. \n2. Hang with arms fully extended. \n3. Pull body up until chin is above the bar. \n4. Lower body back down to starting position. \n5. Repeat."
+    },
+    {
+      "id": 15,
+      "name": "Wall Sits",
+      "category": "Legs",
+      "description": "Static exercise for lower body strength and endurance",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Lean against a wall with feet shoulder-width apart and slide down until knees are at a 90-degree angle. \n2. Keep back against the wall and hold the position, thighs parallel to the floor. \n3. Hold for desired duration."
+    },
+    {
+      "id": 16,
+      "name": "Flutter Kicks",
+      "category": "Core",
+      "description": "Targets lower abs and hip flexors",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Lie flat on your back with hands under glutes for support, legs extended. \n2. Lift legs off the ground a few inches and alternate kicking legs up and down in quick succession. \n3. Keep core engaged and lower back pressed into the ground. \n4. Repeat."
+    },
+    {
+      "id": 17,
+      "name": "Box Jumps",
+      "category": "Legs",
+      "description": "Plyometric exercise to improve explosive power",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Stand in front of a sturdy box or platform of appropriate height. \n2. Jump onto the box, landing softly with both feet. \n3. Stand up straight on the box. \n4. Step down carefully and repeat."
+    },
+    {
+      "id": 18,
+      "name": "Tricep Dips",
+      "category": "Strength",
+      "description": "Targets triceps and shoulders",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Sit on the edge of a chair or bench with hands gripping the edge, fingers forward. \n2. Slide off the edge and support yourself with arms straight, elbows slightly bent. \n3. Lower your body by bending elbows until upper arms are parallel to the floor. \n4. Push back up to starting position. \n5. Repeat."
+    },
+    {
+      "id": 19,
+      "name": "High Knees",
+      "category": "Cardio",
+      "description": "Dynamic exercise to elevate heart rate",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Stand in place with feet hip-width apart. \n2. Quickly drive right knee up towards chest, then switch to left knee in a running motion. \n3. Continue alternating knees at a fast pace, using arms to assist in the motion. \n4. Repeat."
+    },
+    {
+      "id": 20,
+      "name": "Standing Calf Raises",
+      "category": "Legs",
+      "description": "Targets calf muscles",
+      "image": "../assets/images/Squats.png",
+      "instructions": "1. Stand with feet hip-width apart near a wall or stable surface for balance. \n2. Rise up onto toes, lifting heels off the ground as high as possible. \n3. Hold for a moment, then lower heels back down. \n4. Repeat."
+    }
+  ],
+
+  "workouts": [
+    {
+      "id": 1,
+      "name": "Beginner Workout 1",
+      "exercises": [1, 2, 5, 6],
+      "description": "A beginner-friendly workout routine focusing on basic exercises",
+      "duration_minutes": 15
+    },
+    {
+      "id": 2,
+      "name": "Beginner Workout 2",
+      "exercises": [3, 4, 7, 8],
+      "description": "Another beginner workout routine to improve overall fitness",
+      "duration_minutes": 30
+    },
+    {
+      "id": 3,
+      "name": "Harder Workout 1",
+      "exercises": [7, 8, 10, 12],
+      "description": "A more challenging workout routine for those looking to push themselves",
+      "duration_minutes": 30
+    },
+    {
+      "id": 4,
+      "name": "Harder Workout 2",
+      "exercises": [4, 9, 11, 13],
+      "description": "A challenging workout with focus on core and leg strength",
+      "duration_minutes": 45
+    },
+    {
+      "id": 5,
+      "name": "Toughest Workout 1",
+      "exercises": [7, 14, 15, 16, 17],
+      "description": "An intense workout program for advanced fitness enthusiasts",
+      "duration_minutes": 60
+    },
+    {
+      "id": 6,
+      "name": "Toughest Workout 2",
+      "exercises": [12, 14, 18, 19, 20],
+      "description": "A challenging full-body workout routine for maximum endurance",
+      "duration_minutes": 60
+    }
+  ]
+}
