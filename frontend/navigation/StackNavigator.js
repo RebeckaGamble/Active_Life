@@ -14,7 +14,6 @@ import LogIn from "../screens/LogIn";
 import { useAuthContext } from "../context/AuthContext";
 
 const Stack = createNativeStackNavigator();
-<Stack.Screen name="index" component={Index} />;
 
 export default function StackNavigator() {
   const { token, logout } = useAuthContext();
@@ -26,7 +25,12 @@ export default function StackNavigator() {
   };
 
   return (
-    <Stack.Navigator>
+    <Stack.Navigator initialRouteName="Index">
+     {/**  <Stack.Screen
+        name="index"
+        component={Index}
+        options={{ headerShown: false }}
+      />*/}
       <Stack.Screen
         name="home"
         component={Home}

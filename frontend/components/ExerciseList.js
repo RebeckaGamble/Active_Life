@@ -40,14 +40,14 @@ const ExerciseCard = ({ item, navigation, index }) => {
         onPress={() => navigation.navigate("ExerciseDetails", { item })}
         className="flex py-3 space-y-2"
       >
-        <View className="bg-neutral-200 shadow rounded-[25px]">
+       <View style={{ backgroundColor: "#E5E7EB", borderRadius: 25, overflow: "hidden", marginBottom: '14px' }}>
           <Image
-            source={{ url: item.gifUrl }}
-            contentFit="cover"
-            style={{ width: wp(44), height: wp(52), borderRadius: "25px" }}
+            source={{ uri: item?.gifUrl }}
+            resizeMode="cover"
+            style={{ width: wp(44), height: wp(52), borderRadius: 25 }}
           />
           <Text
-            style={{ fontSize: hp(1.7) }}
+            style={{ fontSize: hp(1.7), marginHorizontal: '12px', letterSpacing: '0.025em', paddingVertical: '4px', color: 'rgb(64 64 64)', overflow: 'hidden' }}
             className="text-neutral-700 font-semibold ml-1 tracking-wide"
           >
             {item?.name?.length > 20

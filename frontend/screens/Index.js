@@ -33,8 +33,8 @@ export default function Index() {
             Best <Text style={styles.highlight}>workouts</Text> For You
           </Text>
           <TouchableOpacity
-            // onPress={handleGetStarted}
-            onPress={() => navigation.navigate("Home")}
+            onPress={handleGetStarted}
+            //onPress={() => navigation.navigate("Home")}
             style={styles.button}
           >
             <Text style={styles.buttonText}>Get Started</Text>

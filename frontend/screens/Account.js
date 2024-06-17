@@ -191,13 +191,13 @@ export default function Account() {
         </>
       ) : (
         <View style={styles.loginContainer}>
-          <Text style={styles.title}>You need to log in</Text>
+          <Text style={styles.subtitle}>You need to </Text>
           <TouchableOpacity
             onPress={() => navigation.navigate("LogIn")}
-            style={styles.button}
           >
-            <Text style={styles.buttonText}>Log In</Text>
+            <Text style={styles.buttonText}>log in</Text>
           </TouchableOpacity>
+          <Text style={styles.subtitle}>to see your account</Text>
         </View>
       )}
     </ScrollView>
@@ -211,9 +211,9 @@ const styles = StyleSheet.create({
     paddingVertical: 20,
     paddingHorizontal: 20,
   },
-  title: {
-    fontSize: 42,
-    fontWeight: "bold",
+  subtitle: {
+    fontSize: 32,
+    fontWeight: "semiBold",
     marginBottom: 20,
     textAlign: "center",
     color: "white",
@@ -264,10 +264,11 @@ const styles = StyleSheet.create({
     alignSelf: "center",
   },
   buttonText: {
-    color: "white",
-    fontSize: 18,
-    fontWeight: "bold",
+    color: "#d40da3",
+    fontSize: 32,
+    fontWeight: "semiBold",
     textAlign: "center",
+    borderWidth: '1px'
   },
   normalText: {
     color: "white",
@@ -305,9 +306,10 @@ const styles = StyleSheet.create({
     padding: 5,
   },
   loginContainer: {
-    flex: 1,
+    
     justifyContent: "center",
     alignItems: "center",
+    flexDirection: 'row'
   },
   lap: {
     flexDirection: "row",

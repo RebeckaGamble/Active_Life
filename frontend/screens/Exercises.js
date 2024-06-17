@@ -16,11 +16,11 @@ export default function Exercises() {
   const route = useRoute();
 
   // State to hold exercises data
-  const [exercises, setExercises] = useState(demoExercises);
+  const [exercises, setExercises] = useState([]); //demoExercises
 
   // Access item from route.params safely
   const item = route.params?.item;
-  /*
+  
 
   useEffect(() => {
     if (item) {
@@ -28,11 +28,11 @@ export default function Exercises() {
       console.log("item", item)
     }
   }, [item]);
-*/
+
   // Fetch exercises based on body part
   const getExercises = async (bodypart) => {
     try {
-      const data = await fetchExercisesByBodyPart(bodypart);
+      let data = await fetchExercisesByBodyPart(bodypart);
       setExercises(data);
       console.log("getting data from exercises", data)
     } catch (error) {
@@ -67,7 +67,7 @@ export default function Exercises() {
       <View style={{ marginHorizontal: wp(4), marginTop: hp(4) }}>
         {item && (
           <Text style={{ fontSize: hp(3), fontWeight: "bold", color: "#333" }}>
-            {item.name} Exercises
+            {item.name} exercises
           </Text>
         )}
         <View style={{ marginTop: hp(2), marginBottom: hp(10) }}>

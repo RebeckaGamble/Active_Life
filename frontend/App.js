@@ -1,10 +1,14 @@
-import { AuthProvider } from "./context/AuthContext";
-import AppNavigatior from "./navigation/AppNavigator";
+import { registerRootComponent } from 'expo';
+import React from 'react';
+import { AuthProvider } from './context/AuthContext';
+import AppNavigator from './navigation/AppNavigator';
 
-export default function App() {
+const App = () => {
   return (
     <AuthProvider>
-      <AppNavigatior />
+      <AppNavigator />
     </AuthProvider>
   );
-}
+};
+
+export default registerRootComponent(App);

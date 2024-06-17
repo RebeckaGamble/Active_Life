@@ -1,4 +1,9 @@
-//export const rapidApiKey = "194f57fc8bmsh9482e9a9da2b9dcp1a22a1jsnd9a5330cd535";
+//import dotenv from "dotenv";
+//require('dotenv').config()
+//dotenv.config();
+
+export const rapidApiKey = ""
+//export const rapidApiKey = process.env.RAPID_API_KEY
 
 export const sliderImages = [
   require("../assets/images/slide1.1.png"),
@@ -33,46 +38,43 @@ export const sliderImages = [
 */
 export const bodyParts = [
   {
-    name: "Back",
+    name: "back",
     image: require("../assets/images/back.png"),
   },
   {
-    name: "Cardio",
+    name: "cardio",
     image: require("../assets/images/cardio.png"),
   },
   {
-    name: "Lower arms",
+    name: "lower arms",
     image: require("../assets/images/lowerarms.png"),
   },
   {
-    name: "Lower legs",
+    name: "lower legs",
     image: require("../assets/images/lowerlegs.png"),
   },
   {
-    name: "Chest",
+    name: "chest",
     image: require("../assets/images/chest.png"),
   },
   {
-    name: "Neck",
+    name: "neck",
     image: require("../assets/images/neck.png"),
   },
   {
-    name: "Shoulders",
+    name: "shoulders",
     image: require("../assets/images/shoulders.png"),
   },
   {
-    name: "Upper arms",
+    name: "upper arms",
     image: require("../assets/images/uperarms.png"),
   },
   {
-    name: "Upper legs",
+    name: "upper legs",
     image: require("../assets/images/upperlegs.png"),
   },
-  {
-    name: "Shoulders",
-    image: require("../assets/images/shoulders.png"),
-  },
 ];
+
 
 export const demoExercises = [
   {
