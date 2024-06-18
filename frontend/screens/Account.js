@@ -91,23 +91,25 @@ export default function Account() {
     <ScrollView style={styles.container}>
       {token ? (
         <>
-          <Text style={styles.title}>Keep track!</Text>
-          <Text style={styles.normalText}>Logged in as: {userEmail}</Text>
+
           <View style={styles.avatarContainer}>
             <Image
               source={require("../assets/images/avatar.png")}
               style={styles.avatar}
             />
           </View>
+          {/** 
           <View style={styles.notificationIcon}>
-            <TouchableOpacity style={styles.notificationButton}>
-              <Ionicons name="notifications" size={24} color="gray" />
-            </TouchableOpacity>
+          <TouchableOpacity style={styles.notificationButton}>
+          <Ionicons name="notifications" size={24} color="gray" />
+          </TouchableOpacity>
           </View>
+          */}
           <View style={styles.descriptionContainer}>
             <Text style={styles.descriptionText}>
               Keep track of your workouts!
             </Text>
+          <Text style={styles.normalText}>Logged in as: {userEmail}</Text>
             <TouchableOpacity
               onPress={() => navigation.navigate("Timer")}
               style={styles.button}
@@ -185,9 +187,11 @@ export default function Account() {
               <Text style={styles.normalText}>No workouts saved.</Text>
             )}
           </View>
+          {/**
           <TouchableOpacity onPress={handleLogout} style={styles.button}>
             <Text style={styles.buttonText}>Logout</Text>
           </TouchableOpacity>
+           */}
         </>
       ) : (
         <View style={styles.loginContainer}>
@@ -195,9 +199,9 @@ export default function Account() {
           <TouchableOpacity
             onPress={() => navigation.navigate("LogIn")}
           >
-            <Text style={styles.buttonText}>log in</Text>
+            <Text style={styles.linkText}>log in </Text>
           </TouchableOpacity>
-          <Text style={styles.subtitle}>to see your account</Text>
+          <Text style={styles.subtitle}>to see your account.</Text>
         </View>
       )}
     </ScrollView>
@@ -209,19 +213,17 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#191919",
     paddingVertical: 20,
-    paddingHorizontal: 20,
+    paddingHorizontal: 10,
   },
   subtitle: {
-    fontSize: 32,
+    fontSize: 18,
     fontWeight: "semiBold",
-    marginBottom: 20,
-    textAlign: "center",
     color: "white",
   },
   avatarContainer: {
     position: "absolute",
-    top: 20,
-    right: 20,
+    top: 2,
+    right: 2,
   },
   avatar: {
     width: 50,
@@ -229,6 +231,12 @@ const styles = StyleSheet.create({
     borderRadius: 25,
     borderWidth: 2,
     borderColor: "#E2E8F0",
+  },
+  exerciseName: {
+    fontSize: '20px',
+    fontWeight: 'bold',
+    paddingTop: 10,
+    paddingBottom: 4,
   },
   notificationIcon: {
     position: "absolute",
@@ -250,9 +258,16 @@ const styles = StyleSheet.create({
   },
   descriptionText: {
     color: "white",
-    fontSize: 18,
+    fontSize: 20,
+    fontWeight: 'semibold',
     marginBottom: 20,
+    marginTop: 20,
     textAlign: "center",
+  },
+  bodyText: {
+    gap: 2,
+    lineHeight: 24,
+    fontSize: 16,
   },
   button: {
     backgroundColor: "#d40da3",
@@ -264,11 +279,16 @@ const styles = StyleSheet.create({
     alignSelf: "center",
   },
   buttonText: {
-    color: "#d40da3",
-    fontSize: 32,
+    color: "#fff",
+    fontSize: 20,
     fontWeight: "semiBold",
     textAlign: "center",
-    borderWidth: '1px'
+  },
+  linkText: {
+    color: "#d40da3",
+    fontSize: 20,
+    fontWeight: "semiBold",
+    textAlign: "center",
   },
   normalText: {
     color: "white",
@@ -306,7 +326,6 @@ const styles = StyleSheet.create({
     padding: 5,
   },
   loginContainer: {
-    
     justifyContent: "center",
     alignItems: "center",
     flexDirection: 'row'

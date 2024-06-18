@@ -21,7 +21,6 @@ export default function Exercises() {
   // Access item from route.params safely
   const item = route.params?.item;
   
-
   useEffect(() => {
     if (item) {
       getExercises(item.name);
@@ -41,15 +40,17 @@ export default function Exercises() {
   };
 
   return (
-    <ScrollView style={{ marginTop: hp(20) }}>
+    <ScrollView style={{backgroundColor: '#191919', flex: '1', color: '#fff', gap: '10px', }}>
       <StatusBar style="light" />
+
       {item && (
         <Image
-          source={{ uri: item.gifUrl }}
-          style={{ width: wp(100), height: hp(45) }}
+          source={item.image}
+          style={{ width: wp(100), height: hp(25) }}
           resizeMode="cover"
         />
       )}
+      {/**
       <TouchableOpacity
         onPress={() => navigation.navigate("Home")}
         style={{
@@ -63,10 +64,10 @@ export default function Exercises() {
       >
         <Ionicons name="caret-back-outline" size={hp(4)} color="white" />
       </TouchableOpacity>
-
-      <View style={{ marginHorizontal: wp(4), marginTop: hp(4) }}>
+ */}
+      <View style={{ marginHorizontal: wp(4), marginTop: hp(4), gap: '10px', justifyContent: 'space-between',  }}>
         {item && (
-          <Text style={{ fontSize: hp(3), fontWeight: "bold", color: "#333" }}>
+          <Text style={{ fontSize: hp(3), fontWeight: "bold", color: "#fff" }}>
             {item.name} exercises
           </Text>
         )}

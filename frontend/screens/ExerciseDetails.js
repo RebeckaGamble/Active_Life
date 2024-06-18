@@ -14,8 +14,8 @@ export default function ExerciseDetails() {
   const { item } = route.params; //access passes params
 
   return (
-    <View style={{ flex: 1 }}>
-      <View style={{ backgroundColor: "#f0f0f0", borderBottomLeftRadius: 40 }}>
+    <View style={{ flex: 1, backgroundColor: '#191919', }}>
+      <View style={{ backgroundColor: "#191919", borderBottomLeftRadius: 40, color: '#fff' }}>
         <Image
           source={{ uri: item.gifUrl }}
           style={{ width: wp(100), height: wp(100), resizeMode: "cover" }}
@@ -28,27 +28,27 @@ export default function ExerciseDetails() {
         <AntDesign name="closecircle" size={hp(4.5)} color="#f43f5e" />
       </TouchableOpacity>
       <ScrollView
-        style={{ margin: wp(4), marginTop: hp(3), marginBottom: hp(10) }}
+        style={{ margin: wp(4), marginTop: hp(3), marginBottom: hp(2) }}
         showsVerticalScrollIndicator={false}
       >
-        <Text style={{ fontSize: hp(3.5), fontWeight: "bold", color: "#333" }}>
+        <Text style={{ fontSize: hp(3.5), fontWeight: "bold", color: "#fff" }}>
           {item.name}
         </Text>
-        <Text style={{ fontSize: hp(2), color: "#333", marginTop: hp(1.5) }}>
+        <Text style={{ fontSize: hp(2), color: "#fff", marginTop: hp(1.5) }}>
           Equipment{" "}
-          <Text style={{ fontWeight: "bold", color: "#555" }}>
+          <Text style={{ fontWeight: "bold", color: "#fff" }}>
             {item.equipment}
           </Text>
         </Text>
-        <Text style={{ fontSize: hp(2), color: "#333", marginTop: hp(1.5) }}>
+        <Text style={{ fontSize: hp(2), color: "#fff", marginTop: hp(1.5) }}>
           Secondary Muscles{" "}
-          <Text style={{ fontWeight: "bold", color: "#555" }}>
+          <Text style={{ fontWeight: "bold", color: "#fff" }}>
             {item.secondaryMuscles.join(", ")}
           </Text>
         </Text>
-        <Text style={{ fontSize: hp(2), color: "#333", marginTop: hp(1.5) }}>
+        <Text style={{ fontSize: hp(2), color: "#fff", marginTop: hp(1.5) }}>
           Target{" "}
-          <Text style={{ fontWeight: "bold", color: "#555" }}>
+          <Text style={{ fontWeight: "bold", color: "#fff" }}>
             {item.target}
           </Text>
         </Text>
@@ -56,7 +56,7 @@ export default function ExerciseDetails() {
           style={{
             fontSize: hp(3),
             fontWeight: "bold",
-            color: "#333",
+            color: "#fff",
             marginTop: hp(2.5),
           }}
         >
@@ -65,7 +65,7 @@ export default function ExerciseDetails() {
         {item.instructions.map((instruction, index) => (
           <Text
             key={index}
-            style={{ fontSize: hp(1.7), color: "#555", marginTop: hp(1) }}
+            style={{ fontSize: hp(1.7), color: "#fff", marginTop: hp(1) }}
           >
             {instruction.trim()}
           </Text>

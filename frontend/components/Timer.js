@@ -320,8 +320,8 @@ const CountTimer = () => {
 
       <LapsTable laps={laps} timer={now - start} />
 
-      <View>
-        <Text style={{ color: "#fff", fontSize: "24px", alignItems: "center" }}>
+      <View style={{alignItems: 'center', justifyContent: 'center', marginBottom: '20px'}}>
+        <Text style={{ color: "#fff", fontSize: "24px", alignItems: "center", paddingVertical: '10px', textAlign: 'center' }}>
           Keep track of your progress by saving your times to your account.
         </Text>
         <TouchableOpacity
